@@ -1,0 +1,57 @@
+
+/* 
+table of content
+=======================================
+***********Common Css ******************
+1) Reset css 
+2) top header section
+3) menu bar section
+4) inner page heading section
+5) product card
+6) footer section
+ */
+ :root{
+    --primary-font:'Josefin Sans', sans-serif;
+    --secondary-font:'Roboto', sans-serif;
+    --text-color:#11161E;
+    --dark-hover-color:#151A32;
+    --light-color:#ffffff;
+    --light-dark:#000000;
+    --primary-color-light:#FF6F61;
+    --primary-color-dark:#FF5645;
+    --pragraph-color:#444444;
+    --bg-color-light:#F1F1F1;
+    --bg-color-dark:#F1F3F4;
+ }
+/* Reset css start */
+body{
+    font-family: var( --primary-font);
+}
+p{
+    font-family: var(--secondary-font);
+}
+h1,h2,h3,h4,h5,h6
+p,
+ul,ol,
+span,
+small{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+input:focus{
+    outline: 0;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+/* Reset css End */
+
+/* top bar section css start */
+
+/* top bar section css End */
